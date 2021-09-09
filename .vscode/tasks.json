@@ -3,12 +3,17 @@
     "tasks": [
         {
             "label": "compile",
-            "command": "g++",
+            "command": "cmake",
             "args": [
-                "-g",
-                "${file}",
-                "-o",
-                "${fileDirname}/${fileBasenameNoExtension}"
+                "--build",
+                "${workspaceFolder}/build",
+                "--config",
+                "Debug",
+                "--target",
+                "main",
+                "-j",
+                "10",
+                "--"
             ],
             "problemMatcher": {
                 "owner": "cpp",
