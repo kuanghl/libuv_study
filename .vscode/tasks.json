@@ -10,7 +10,7 @@
                 "--config",
                 "Debug",
                 "--target",
-                "main",
+                "${fileBasenameNoExtension}",
                 "-j",
                 "10",
                 "--"

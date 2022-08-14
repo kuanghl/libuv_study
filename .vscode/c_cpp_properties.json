@@ -4,7 +4,7 @@
             "name": "ubuntu",
             "includePath": [
                 "${workspaceFolder}/**",
-                "${workspaceFolder}/libuv/include/**"
+                // "${workspaceFolder}/libuv/include/**"
             ],
             "compilerPath": "/usr/bin/cc",
             "cStandard": "c17",
