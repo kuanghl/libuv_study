@@ -15,7 +15,8 @@ set(CMAKE_BUILD_TYPE "Debug")
 
 vscode 安装 cmake 插件, 点击 build, 生成 libuv 的动态链接库.
 
-![vscode-cmake-build-libuv.so](https://shubuzuo.coding.net/p/image-host/d/image-host/git/raw/master/images/2022-08/2022-08-15/pic_1660500748131-45.png)  
+![vscode-cmake-build-libuv.so](http://rgmhwumdz.hb-bkt.clouddn.com/2022-08/2022-08-15/-13.png)  
+
 
 ## debug main
 
