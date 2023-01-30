@@ -12,15 +12,17 @@ git submodule update --init
 ```cmake
 set(CMAKE_BUILD_TYPE "Debug")
 ```
+### ide
 
 vscode 安装 cmake 插件, 点击 build, 生成 libuv 的动态链接库.
 
+### linux
 ```
 mkdir build 
 cd build
 cmake ..
-make -j16
-make install
+sudo make -j16
+sudo make install
 ```
 
 
